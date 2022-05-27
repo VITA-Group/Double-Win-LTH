@@ -1,0 +1,15 @@
+python -u main_adv_eval.py \
+    --data ../data \
+    --dataset $1 \
+    --data_number 1 \
+    --arch resnet50 \
+    --init $2 \
+    --seed 1 \
+    --batch_size 128 \
+    --lr 0.1 \
+    --weight_decay 5e-4 \
+    --epochs 100 \
+    --decreasing_lr 50,75 \
+    --warmup 0 \
+    --save_dir $3 \
+    --tickets_file $4
