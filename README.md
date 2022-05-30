@@ -16,6 +16,10 @@ However, practical security-crucial applications usually pose more challenging r
 
 Furthermore, we observe the obtained double-win lottery tickets can be more data-efficient to transfer, under practical data-limited (e.g., 1% and 10%) downstream schemes. Our results show that the benefits from robust pre-training are amplified by the lottery ticket scheme, as well as the data-limited transfer setting.
 
+<img src = "figs/Teaser.png" align = "center" width="50%" hight="60%">
+
+
+
 ## Prerequisites
 
 ```
